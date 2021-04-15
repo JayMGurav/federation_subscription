@@ -1,0 +1,23 @@
+{
+  "name": "gateway-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jay Gurav <mrithyunjay2799@gmail.com> (http://github.com/JayMGurav)",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/federation": "^0.23.0",
+    "@apollo/gateway": "^0.26.1",
+    "apollo-server": "^2.23.0",
+    "concurrently": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "graphql": "^15.5.0",
+    "graphql-redis-subscriptions": "^2.3.1",
+    "ioredis": "^4.26.0",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "wait-on": "^5.3.0"
+  }
+}
